@@ -81,7 +81,17 @@
 				<string>#c678dd</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>Embeded String</string>
+			<key>scope</key>
+			<string>string.embedded.begin, string.embedded.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c678dd</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
