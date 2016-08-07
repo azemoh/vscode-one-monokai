@@ -83,13 +83,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Embeded String</string>
+			<string>Embeded String Begin and End</string>
 			<key>scope</key>
 			<string>string.embedded.begin, string.embedded.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#c678dd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embeded String</string>
+			<key>scope</key>
+			<string>string.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98c379</string>
 			</dict>
 		</dict>
 		<dict>

@@ -11,6 +11,12 @@ ext install one-monokai
 ## Screenshot
 Screenshot of Ruby and JavaScript
 
-![Theme Screenshot](screenshot.png)
+![Theme Screenshot](screenshot-v0.1.2.png)
 
 Available at [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/azemoh.one-monokai)
+
+## Changelog
+
+#### v 0.1.2
+
+  - Syntax highlight for embeded string.
