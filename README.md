@@ -12,7 +12,7 @@ ext install one-monokai
 ```
 
 ## Screenshot
-Screenshot of Ruby and JavaScript
+Screenshot of Ruby and CSS
 
 ![Theme Screenshot](screenshot-v0.1.2.png)
 
