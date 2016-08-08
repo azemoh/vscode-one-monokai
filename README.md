@@ -1,4 +1,7 @@
 # One Monokai Theme
+[![Version](http://vsmarketplacebadge.apphb.com/version/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![Installs](http://vsmarketplacebadge.apphb.com/installs/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![Ratings](https://vsmarketplacebadge.apphb.com/rating/azemoh.one-monokai.svg)](https://vsmarketplacebadge.apphb.com/rating/azemoh.one-monokai.svg)
+
+
 A cross between Monokai and One Dark theme
 
 ## Install
