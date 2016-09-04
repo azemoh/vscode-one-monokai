@@ -2,7 +2,7 @@
     "name": "one-monokai",
     "displayName": "One Monokai Theme",
     "description": "A cross between Monokai and One Dark theme",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "publisher": "azemoh",
     "engines": {
         "vscode": "^0.10.1"
@@ -34,6 +34,6 @@
         "Onedark",
         "Monokai"
     ],
-    "author": "Joshua Azemoh",
+    "author": "Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
     "license": "MIT"
 }

@@ -151,7 +151,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, keyword.operator.logical</string>
+			<string>keyword, keyword.operator.logical, keyword.operator.constructor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
