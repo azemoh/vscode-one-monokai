@@ -2,10 +2,7 @@
 
 A cross between Monokai and One Dark theme
 
-[![Version](http://vsmarketplacebadge.apphb.com/version/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
-<iframe src="https://ghbtns.com/github-btn.html?user=azemoh&repo=vscode-one-monokai&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="20px"></iframe>
+[![Version](http://vsmarketplacebadge.apphb.com/version/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![Installs](http://vsmarketplacebadge.apphb.com/installs/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![Ratings](https://vsmarketplacebadge.apphb.com/rating/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![GitHub stars](https://img.shields.io/github/stars/azemoh/vscode-one-monokai.svg?style=social&label=Star&maxAge=2592000)](https://github.com/azemoh/vscode-one-monokai)
 
 
 ## Install
