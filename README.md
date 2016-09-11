@@ -16,13 +16,13 @@ Screenshot of Ruby and CSS
 
 ![Theme Screenshot](screenshot-v0.1.2.png)
 
-Available at [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/azemoh.one-monokai)
+If you like this theme checkout [One Dark Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.theme-onedark)
 
 ## Changelog
 
 #### v0.1.x
 
-  - Syntax highlight for embeded string.
+  - Syntax highlight for embedded string.
   - Syntax highlight for Logical operators (and, or).
   - Syntax highlight for built-in functions.
   - Syntax highlight for js "new" keyword
