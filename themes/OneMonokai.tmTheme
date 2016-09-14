@@ -376,6 +376,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>StyleSheet Variable String</string>
+			<key>scope</key>
+			<string>variable.css.string, variable.scss.string, variable.less.string, variable.sass.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e5c07b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>StyleSheet Unit</string>
 			<key>scope</key>
 			<string>unit.css, unit.scss, unit.less, unit.sass</string>

@@ -26,4 +26,5 @@ If you like this theme checkout [One Dark Theme](https://marketplace.visualstudi
   - Syntax highlight for embedded string.
   - Syntax highlight for Logical operators (and, or).
   - Syntax highlight for built-in functions.
-  - Syntax highlight for js "new" keyword
+  - Syntax highlight for js "new" keyword.
+  - Stylesheet string variable.
