@@ -398,6 +398,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>StyleSheet Function</string>
+			<key>scope</key>
+			<string>function.css, function.scss, function.less, function.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56b6c2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Library variable</string>
 			<key>scope</key>
 			<string>support.other.variable</string>
