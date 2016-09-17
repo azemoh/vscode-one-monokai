@@ -29,3 +29,4 @@ If you like this theme checkout [One Dark Theme](https://marketplace.visualstudi
   - Syntax highlight for js "new" keyword.
   - Stylesheet string variable.
   - Stylesheet functions.
+  - Fix language variable highlight
