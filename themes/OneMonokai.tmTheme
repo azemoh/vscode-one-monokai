@@ -176,8 +176,6 @@
         <string>storage</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#e06c75</string>
         </dict>
@@ -222,8 +220,6 @@
         <string>entity.name.function</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#98c379</string>
         </dict>
@@ -248,8 +244,6 @@
         <string>entity.name.function-call</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#abb2bf</string>
         </dict>
@@ -261,8 +255,6 @@
         <string>function.support.builtin, function.support.core</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#56b6c2</string>
         </dict>
@@ -274,10 +266,19 @@
         <string>entity.name.tag</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#e06c75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Tag Class and ID</string>
+        <key>scope</key>
+        <string>entity.name.tag.class, entity.name.tag.id</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2</string>
         </dict>
       </dict>
       <dict>
@@ -287,8 +288,6 @@
         <string>entity.other.attribute-name</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#98c379</string>
         </dict>
@@ -300,8 +299,6 @@
         <string>support.function</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#abb2bf</string>
         </dict>
@@ -313,8 +310,6 @@
         <string>support.constant</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#56b6c2</string>
         </dict>
@@ -427,8 +422,6 @@
         <dict>
           <key>background</key>
           <string>#c678dd</string>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#F8F8F0</string>
         </dict>
