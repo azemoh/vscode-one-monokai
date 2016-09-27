@@ -316,7 +316,7 @@
         <key>name</key>
         <string>Library class/type</string>
         <key>scope</key>
-        <string>support.type, support.class</string>
+        <string>support.type, support.class, support.variable</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
