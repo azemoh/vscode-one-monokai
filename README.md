@@ -32,3 +32,4 @@ If you like this theme checkout [One Dark Theme](https://marketplace.visualstudi
   - Fix language variable highlight.
   - Fix selection highlight.
   - Highlight support variables.
+  - Improve Java Support
