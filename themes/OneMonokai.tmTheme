@@ -48,7 +48,7 @@
         <key>name</key>
         <string>Comment</string>
         <key>scope</key>
-        <string>comment</string>
+        <string>comment, string.comment</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>

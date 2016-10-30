@@ -33,3 +33,4 @@ If you like this theme checkout [One Dark Theme](https://marketplace.visualstudi
   - Fix selection highlight.
   - Highlight support variables.
   - Improve Java Support
+  - Proper Jade string comments
