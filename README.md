@@ -13,9 +13,9 @@ ext install one-monokai
 ```
 
 ## Screenshot
-Screenshot of Ruby and CSS
+Screenshot of Ruby and JavaScript
 
-![Theme Screenshot](screenshot-v0.1.2.png)
+![Theme Screenshot](screenshot-v0.2.0.png)
 
 If you like this theme checkout [One Dark Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.theme-onedark)
 

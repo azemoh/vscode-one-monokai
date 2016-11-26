@@ -1,6 +1,9 @@
 # Changelog
 
-### v0.1.x
+#### v0.2.x
+  - Increase support for default VSCode JS Grammer.
+
+#### v0.1.x
 
   - Syntax highlight for embedded string.
   - Syntax highlight for Logical operators (and, or).

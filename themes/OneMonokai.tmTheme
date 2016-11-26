@@ -138,7 +138,7 @@
         <key>name</key>
         <string>Variable</string>
         <key>scope</key>
-        <string>variable.readwrite</string>
+        <string>variable.readwrite, variable.readwrite.other.block</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -164,7 +164,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#abb2bf</string>
+          <string>#e06c75</string>
         </dict>
       </dict>
       <dict>
@@ -182,7 +182,7 @@
         <key>name</key>
         <string>Storage type</string>
         <key>scope</key>
-        <string>storage.type.function</string>
+        <string>storage.type</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -193,11 +193,22 @@
         <key>name</key>
         <string>Class name</string>
         <key>scope</key>
-        <string>entity.name.class, entity.name.module, storage.identifier, storage.type</string>
+        <string>entity.name.class, entity.name.module, entity.name.type, storage.identifier,  support.class</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#56b6c2</string>
+          <string>#61afef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Other variable</string>
+        <key>scope</key>
+        <string>variable.other.property, variable.other.object, variable.other.block</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#abb2bf</string>
         </dict>
       </dict>
       <dict>
@@ -316,7 +327,7 @@
         <key>name</key>
         <string>Library class/type</string>
         <key>scope</key>
-        <string>support.type, support.class, support.variable</string>
+        <string>support.type, support.variable</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
