@@ -1,5 +1,8 @@
 # Changelog
 
+#### v0.2.1
+  - Proper highlight for JSX html tags.
+
 #### v0.2.x
   - Increase support for default VSCode JS Grammer.
 

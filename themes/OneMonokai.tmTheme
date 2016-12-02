@@ -272,7 +272,7 @@
         <key>name</key>
         <string>Tag name</string>
         <key>scope</key>
-        <string>entity.name.tag</string>
+        <string>entity.name.tag, entity.name.tag.class.js, entity.name.tag.class.jsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
