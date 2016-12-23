@@ -1,6 +1,7 @@
 # Changelog
 
-#### v0.2.1
+#### v0.2.x
+  - Fix highlighting for method call and Class names.
   - Proper highlight for JSX html tags.
 
 #### v0.2.x

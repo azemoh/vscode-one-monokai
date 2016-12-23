@@ -202,9 +202,20 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Variable Object</string>
+        <key>scope</key>
+        <string>variable.other.object</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61afef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Other variable</string>
         <key>scope</key>
-        <string>variable.other.property, variable.other.object, variable.other.block</string>
+        <string>variable.other.property, variable.other.block</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -226,7 +237,7 @@
         <key>name</key>
         <string>Function name</string>
         <key>scope</key>
-        <string>entity.name.function</string>
+        <string>entity.name.function, support.function</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -299,17 +310,6 @@
         <dict>
           <key>foreground</key>
           <string>#98c379</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Library function</string>
-        <key>scope</key>
-        <string>support.function</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#abb2bf</string>
         </dict>
       </dict>
       <dict>
