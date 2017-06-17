@@ -5,7 +5,7 @@
     "version": "0.2.4",
     "publisher": "azemoh",
     "engines": {
-        "vscode": "^0.10.1"
+        "vscode": "^1.13.0"
     },
     "categories": [
         "Themes"
@@ -16,7 +16,7 @@
             {
                 "label": "One Monokai",
                 "uiTheme": "vs-dark",
-                "path": "./themes/OneMonokai.tmTheme"
+                "path": "./themes/OneMonokai-color-theme.json"
             }
         ]
     },
