@@ -37,21 +37,21 @@
       "name": "js template-expression",
       "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#c678dd"
       }
     },
     {
       "name": "TemplateString",
       "scope": "string.template.js",
       "settings": {
-        "foreground": "#8bb271"
+        "foreground": "#e5c07b"
       }
     },
     {
       "name": "TemplateString",
       "scope": "meta.template.expression.js",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#abb2bf"
       }
     },
     {

@@ -1,13 +1,18 @@
 # Changelog
+All notable changes to the "one-monokai" extension will be documented in this file.
 
-#### v0.2.x
+### v0.3.x
+  - Convert to json syntax theme.
+  - [Added es6 template string support](https://github.com/azemoh/vscode-one-monokai/commit/5371773a8f3ffc022d34ffefec19cae4eafb2673) by [@notgiorgi](https://github.com/notgiorgi)
+
+### v0.2.x
   - Fix highlighting for method call and Class names.
   - Proper highlight for JSX html tags.
 
-#### v0.2.x
+### v0.2.x
   - Increase support for default VSCode JS Grammer.
 
-#### v0.1.x
+### v0.1.x
 
   - Syntax highlight for embedded string.
   - Syntax highlight for Logical operators (and, or).
