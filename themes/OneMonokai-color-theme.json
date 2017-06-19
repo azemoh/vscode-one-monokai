@@ -1,5 +1,6 @@
 {
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "settings": {
         "background": "#282c34",
         "foreground": "#abb2bf",
@@ -30,6 +31,27 @@
       "scope": "string",
       "settings": {
         "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "js template-expression",
+      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "TemplateString",
+      "scope": "string.template.js",
+      "settings": {
+        "foreground": "#8bb271"
+      }
+    },
+    {
+      "name": "TemplateString",
+      "scope": "meta.template.expression.js",
+      "settings": {
+        "foreground": "#e06c75"
       }
     },
     {
