@@ -2,6 +2,7 @@
 All notable changes to the "one-monokai" extension will be documented in this file.
 
 ### v0.3.x
+  - Make white space visible for active editor line. by [@notgiorgi](https://github.com/notgiorgi)
   - Convert to json syntax theme.
   - [Added es6 template string support](https://github.com/azemoh/vscode-one-monokai/commit/5371773a8f3ffc022d34ffefec19cae4eafb2673) by [@notgiorgi](https://github.com/notgiorgi)
   - Workbench themeing
