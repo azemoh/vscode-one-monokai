@@ -2,7 +2,7 @@
     "name": "one-monokai",
     "displayName": "One Monokai Theme",
     "description": "A cross between Monokai and One Dark theme",
-    "version": "0.3.4",
+    "version": "0.3.7",
     "publisher": "azemoh",
     "engines": {
         "vscode": "^1.13.0"

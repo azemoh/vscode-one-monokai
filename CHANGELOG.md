@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.3.6
+ - Increased comment brightness by [@jtlapp](https://github.com/jtlapp)
+ - Brighten active tab color by [@waldyrious](https://github.com/waldyrious)
+ - Add Made in Nigeria badge by [@hacktivist123](https://github.com/hacktivist123)
+ 
 ### v0.3.x
   - Make white space visible for active editor line. by [@notgiorgi](https://github.com/notgiorgi)
   - Convert to json syntax theme.
