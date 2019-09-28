@@ -6,6 +6,11 @@ class User < ApplicationRecord
 
   MAX_ACCOUNTS = 5
 
+  enum roles: {
+    user: 0,
+    admin: 1
+  }
+
   scope :active, -> { where(deleted_at: nil) }
   scope :in_active, lambda { where.not(deleted_at: nil) }
 
@@ -16,8 +21,20 @@ end
   puts '*' * i
 end
 
-def greet(name)
-  puts "Hello #{name}!"
+#
+# @param name
+def greet(user)
+  puts "Hello #{user.name}!"
 end
 
+user = User.new
+user.tap(&:valid?)
+user.name
+
 File.dirname(__FILE__)
+
+puts "Multiline \n String"
+
+
+# TODO: Refactor
+valid_format = /^\d[a-z]+\.*\d{4}/i;

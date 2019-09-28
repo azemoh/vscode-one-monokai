@@ -1,12 +1,12 @@
 import _, { every } from 'lodash';
 
-every([
+var allTrue = every([
   10 === 3,
   1 === '1',
   false
 ])
 
-_.some([
+let someTrue = _.some([
   true,
   typeof 2 == 'string'
 ])
@@ -52,7 +52,12 @@ const makeRequest = (url) => {
   });
 }
 
-await makeRequest('https://api.github.com/users/3');
+async function getUser(id) {
+  let user = await makeRequest(`https://api.github.com/users/${id}`);
+  return user
+}
+
+getUser(4);
 
 // If/else.
 if (condition) {
@@ -67,3 +72,5 @@ if (condition) {
 for(let i = 0; i < 5; i++) {
   // loop
 }
+
+const validFormat = /\d[a-z]\.*\d{4}/i;

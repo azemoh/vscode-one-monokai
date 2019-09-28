@@ -18,4 +18,35 @@
   &:last-of-type {
     border-left: 1px solid #EAEAEA;
   }
+
+  &::after {
+    content: none;
+  }
+
+  @media (min-width: 1280px) {
+    width: 800px;
+  }
+}
+
+#banner {
+  margin: 0 auto;
+}
+
+/* Edge */
+::-webkit-input-placeholder {
+  color: red;
+}
+
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+
+#banner {
+  margin: 0 auto;
 }

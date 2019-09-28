@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'redux';
 
 const Header = () => {
-  <header></header>
+  <header className="container" />
 }
 
 class Home extends Component {
@@ -21,9 +21,9 @@ class Home extends Component {
   }
 }
 
-const mapStateToProps = ({ menus, current_user }) => ({
+const mapStateToProps = ({ menus, user }) => ({
   menus,
-  currentUser: current_user,
+  user,
 })
 
 export default connect(mapStateToProps)(Home)
