@@ -99,15 +99,15 @@
       }
     },
     {
-      "name": "Embedded String",
-      "scope": "string.embedded",
-      "settings": {
-        "foreground": "#98c379"
-      }
-    },
-    {
-      "name": "Elixir Embedded",
-      "scope": "source.elixir.embedded",
+      "name": "Default Embedded Color",
+      "scope": [
+        "punctuation.section.embedded.begin.js",
+        "punctuation.section.embedded.end.js",
+        "source.elixir.embedded",
+        "punctuation.separator",
+        "punctuation.accessor",
+        "meta.brace"
+      ],
       "settings": {
         "foreground": "#abb2bf"
       }
@@ -134,16 +134,6 @@
       "scope": "variable.language",
       "settings": {
         "foreground": "#e06c75"
-      }
-    },
-    {
-      "name": "Variable",
-      "scope": [
-        "variable.readwrite",
-        "variable.readwrite.other.block"
-      ],
-      "settings": {
-        "foreground": "#61afef"
       }
     },
     {
@@ -195,7 +185,11 @@
       "name": "Variable Object",
       "scope": [
         "variable.other.object",
-        "variable.other.constant"
+        "variable.other.constant",
+        "variable.other.readwrite.class",
+        "variable.other.readwrite.instance",
+        "variable.readwrite",
+        "variable.readwrite.other.block"
       ],
       "settings": {
         "foreground": "#61afef"
@@ -272,8 +266,7 @@
       "name": "Tag Name",
       "scope": [
         "entity.name.tag",
-        "entity.name.tag.class.js",
-        "entity.name.tag.class.jsx"
+        "entity.name.tag.class.js"
       ],
       "settings": {
         "foreground": "#e06c75"
