@@ -1,0 +1,52 @@
+@import '../vars.scss';
+
+.button {
+  border: none !important;
+  display: -webkit-flex;
+  height: calc(100vw - 20px);
+  padding: 24px;
+
+  &-primary {
+    background-color: blue;
+    color: #FFF;
+  }
+
+  &:hover {
+    background-image: linear-gradient(#000, #FFF)
+  }
+
+  &:last-of-type {
+    border-left: 1px solid #EAEAEA;
+  }
+
+  &::after {
+    content: none;
+  }
+
+  @media (min-width: 1280px) {
+    width: 800px;
+  }
+}
+
+#banner {
+  margin: 0 auto;
+}
+
+/* Edge */
+::-webkit-input-placeholder {
+  color: red;
+}
+
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+
+#banner {
+  margin: 0 auto;
+}
