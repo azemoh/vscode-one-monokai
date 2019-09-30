@@ -1,21 +1,6 @@
 {
   "tokenColors": [
     {
-      "settings": {
-        "background": "#282c34",
-        "foreground": "#abb2bf",
-        "findHighlight": "#FFE792",
-        "findHighlightForeground": "#000000",
-        "selectionBorder": "#222218",
-        "activeGuide": "#9D550FB0",
-        "bracketsForeground": "#F8F8F2A5",
-        "bracketsOptions": "underline",
-        "bracketContentsForeground": "#F8F8F2A5",
-        "bracketContentsOptions": "underline",
-        "tagsOptions": "stippled_underline"
-      }
-    },
-    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -31,13 +16,6 @@
       "scope": "string",
       "settings": {
         "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "js template-expression",
-      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -62,20 +40,29 @@
       }
     },
     {
-      "name": "Embeded String Begin and End",
+      "name": "Embedded String Begin/End",
       "scope": [
         "string.embedded.begin",
-        "string.embedded.end"
+        "string.embedded.end",
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#c678dd"
       }
     },
     {
-      "name": "Embeded String",
+      "name": "Embedded String",
       "scope": "string.embedded",
       "settings": {
         "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "Elixir Embedded",
+      "scope": "source.elixir.embedded",
+      "settings": {
+        "foreground": "#abb2bf"
       }
     },
     {
@@ -159,7 +146,10 @@
     },
     {
       "name": "Variable Object",
-      "scope": "variable.other.object",
+      "scope": [
+        "variable.other.object",
+        "variable.other.constant"
+      ],
       "settings": {
         "foreground": "#61afef"
       }
@@ -167,6 +157,7 @@
     {
       "name": "Other variable",
       "scope": [
+        "variable.other",
         "variable.other.property",
         "variable.other.block"
       ],
