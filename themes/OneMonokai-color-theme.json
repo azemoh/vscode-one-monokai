@@ -34,13 +34,6 @@
       }
     },
     {
-      "name": "js template-expression",
-      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "TemplateString",
       "scope": "string.template.js",
       "settings": {
@@ -62,20 +55,29 @@
       }
     },
     {
-      "name": "Embeded String Begin and End",
+      "name": "Embedded String Begin/End",
       "scope": [
         "string.embedded.begin",
-        "string.embedded.end"
+        "string.embedded.end",
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#c678dd"
       }
     },
     {
-      "name": "Embeded String",
+      "name": "Embedded String",
       "scope": "string.embedded",
       "settings": {
         "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "Elixir Embedded",
+      "scope": "source.elixir.embedded",
+      "settings": {
+        "foreground": "#abb2bf"
       }
     },
     {
