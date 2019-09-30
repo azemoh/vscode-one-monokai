@@ -1,0 +1,54 @@
+@import '../vars.css';
+
+.button {
+  border: none !important;
+  display: -webkit-flex;
+  display: -moz-flex;
+  height: calc(100vw - 20px);
+  padding: 24px;
+}
+
+.button-primary {
+  background-color: blue;
+  color: #FFF;
+}
+
+.button:hover {
+  background-image: linear-gradient(#000, #FFF)
+}
+
+.button::after {
+  content: none;
+}
+
+.button:last-of-type {
+  border-left: 1px solid #EAEAEA;
+}
+
+input[type="email"] {
+  padding: 15px;
+}
+
+/* Edge */
+::-webkit-input-placeholder {
+  color: red;
+}
+
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+@media (min-width: 1280px) {
+  .button {
+    width: 50px;
+  }
+}
+
+#banner {
+  margin: 0 auto;
+}
