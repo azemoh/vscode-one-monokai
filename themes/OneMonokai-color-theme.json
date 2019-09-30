@@ -459,14 +459,14 @@
       "name": "diff.deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#e06c75"
       }
     },
     {
       "name": "diff.inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#98c379"
       }
     },
     {
