@@ -7,8 +7,7 @@
         "string.comment"
       ],
       "settings": {
-        "foreground": "#676f7d",
-        "fontStyle": "italic"
+        "foreground": "#676f7d"
       }
     },
     {
