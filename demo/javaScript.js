@@ -1,4 +1,4 @@
-import _, { every } from 'lodash';
+import _, { every, foo } from 'lodash';
 
 var allTrue = every([
   10 === 3,

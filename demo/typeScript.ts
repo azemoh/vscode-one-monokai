@@ -21,6 +21,7 @@ export const getApi = (req: Request, res: Response) => {
 export const getFacebook = (req: Request, res: Response, next: NextFunction) => {
   const token = req.user.tokens.find((token: any) => token.kind === 'facebook');  
   const scope = `${req.user.facebook}?fields=id,name,email,first_name,last_name,gender`;
+  const scope = `${req}?fields=id,name,email,first_name,last_name,gender`;
 
   graph.setAccessToken(token.accessToken);
   graph.get(scope, (err: Error, results: FacebookUser) => {
