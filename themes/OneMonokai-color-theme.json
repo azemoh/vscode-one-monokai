@@ -146,7 +146,10 @@
     },
     {
       "name": "Variable Object",
-      "scope": "variable.other.object",
+      "scope": [
+        "variable.other.object",
+        "variable.other.constant"
+      ],
       "settings": {
         "foreground": "#61afef"
       }
@@ -154,6 +157,7 @@
     {
       "name": "Other variable",
       "scope": [
+        "variable.other",
         "variable.other.property",
         "variable.other.block"
       ],
