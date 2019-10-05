@@ -1,6 +1,10 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.4.2
+
+- Specify readwrite variable scope
+
 ### v0.4.1
 
 - Update git diff colors by [@waldyrious](https://github.com/waldyrious)
