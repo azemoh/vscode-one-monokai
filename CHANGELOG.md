@@ -1,6 +1,11 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.4.3
+
+- Revert change to JS readwrite scope
+- Add specific readwrite variable scope for batchfile
+
 ### v0.4.2
 
 - Specify readwrite variable scope

@@ -204,7 +204,9 @@
         "variable.other.object",
         "variable.other.constant",
         "variable.other.global",
-        "variable.other.readwrite",
+        "variable.other.readwrite.class",
+        "variable.other.readwrite.instance",
+        "variable.other.readwrite.batchfile",
         "variable.readwrite",
         "variable.readwrite.other.block"
       ],
