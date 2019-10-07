@@ -1,0 +1,15 @@
+<% provide(:progress, 100) %>
+
+<article class="post">
+  <header>
+    <h2><%= t("post.title") %></h2>
+  </header>
+</article>
+
+<% if @published_posts.any? %>
+  <%= render 'posts', type: :published %>
+<% end %>
+
+<% if @unpublished_posts.any? %>
+  <%= render 'posts', type: :unpublished %>
+<% end %>
