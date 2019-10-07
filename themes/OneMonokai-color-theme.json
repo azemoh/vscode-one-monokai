@@ -120,6 +120,8 @@
       "scope": [
         "punctuation.section.embedded.begin.js",
         "punctuation.section.embedded.end.js",
+        "punctuation.section.embedded.begin.erb",
+        "punctuation.section.embedded.end.erb",
         "source.elixir.embedded",
         "punctuation.separator",
         "punctuation.accessor",

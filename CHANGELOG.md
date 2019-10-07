@@ -1,6 +1,10 @@
 ## Changelog
 All notable changes to the "one-monokai" extension will be documented in this file.
 
+### v0.4.4
+
+- Revert change to embedded ruby (erb) scope
+
 ### v0.4.3
 
 - Revert change to JS readwrite scope
