@@ -7,7 +7,7 @@ A cross between Monokai and One Dark theme
 
 ## Install
 
-press `ctl/command + shift + p` to launch the command palette then run
+press `ctl/command + p` to launch quick open then run
 ```
 ext install one-monokai
 ```
