@@ -1,39 +1,24 @@
 {
-    "name": "one-monokai",
-    "displayName": "One Monokai Theme",
-    "description": "A cross between Monokai and One Dark theme",
-    "version": "0.5.0",
-    "publisher": "azemoh",
-    "engines": {
-        "vscode": "^1.13.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "One Monokai",
-                "uiTheme": "vs-dark",
-                "path": "./themes/OneMonokai-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/azemoh/vscode-one-monokai.git"
-    },
-    "bugs": {
-        "url": "https://github.com/azemoh/vscode-one-monokai/issues"
-    },
-    "homepage": "https://github.com/azemoh/vscode-one-monokai/blob/master/README.md",
-    "keywords": [
-        "Vscode",
-        "Theme",
-        "Onedark",
-        "Monokai"
-    ],
-    "author": "Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
-    "license": "MIT"
+  "name": "one-monokai-michota",
+  "displayName": "One Monokai Michota Theme",
+  "description": "A cross between Monokai and One Dark theme, with additional changes made.",
+  "version": "0.1.0",
+  "publisher": "Michota",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Monokai Michota",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneMonokaiMichota.json"
+      }
+    ]
+  },
+  "license": "MIT"
 }
