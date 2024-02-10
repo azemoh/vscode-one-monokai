@@ -16,7 +16,7 @@
       {
         "label": "One Monokai Michota",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneMonokaiMichota.json"
+        "path": "./themes/OneMonokaiMichota-color-theme.json"
       }
     ]
   },
