@@ -158,6 +158,13 @@
       }
     },
     {
+      "name": "Type and interface definitions",
+      "scope": ["entity.name.type.ts", "meta.type.declaration.ts", "entity.name.type.interface.ts", "entity.name.type.alias.ts"],
+      "settings": {
+        "foreground": "#358ef1"
+      }
+    },
+    {
       "name": "Language Variable",
       "scope": "variable.language",
       "settings": {
