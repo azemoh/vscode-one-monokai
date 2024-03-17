@@ -2,7 +2,7 @@
   "name": "one-monokai-michota",
   "displayName": "One Monokai Michota Theme",
   "description": "A cross between Monokai and One Dark theme, with additional changes made.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "Michota",
   "engines": {
     "vscode": "^1.13.0"
