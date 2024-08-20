@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "One Monokai",
   "type": "dark",
   "colors": {
